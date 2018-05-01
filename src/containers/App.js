@@ -11,6 +11,7 @@ class App extends React.Component {
             data: []
         };
     }
+
     addTodo(val){
         const todo = {
             text: val,

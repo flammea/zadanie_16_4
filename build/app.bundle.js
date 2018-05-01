@@ -5618,10 +5618,10 @@ if(false) {}
 
 exports = module.exports = __webpack_require__(30)(false);
 // imports
-
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans);", ""]);
 
 // module
-exports.push([module.i, "._1yWMblMhcoxIcFRQVWQUoB {\r\n    background-color: #F5F5F5;\r\n    color: #222;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    justify-content: center;\r\n    align-items: center;\r\n    align-content: center;\r\n    width: 100vw;\r\n    height: 100vh;\r\n}", ""]);
+exports.push([module.i, "._1yWMblMhcoxIcFRQVWQUoB {\r\n    font-family: \"Open Sans\";\r\n    background-color: #EAB543;\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    justify-content: center;\r\n    align-items: center;\r\n    align-content: center;\r\n    width: 100vw;\r\n    height: 100vh;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -6225,7 +6225,7 @@ var Title = function Title(props) {
 			'h2',
 			null,
 			'Your ToDo Tasks: ',
-			props.numberoftask
+			props.numberoftasks
 		)
 	);
 };
@@ -6266,7 +6266,7 @@ exports = module.exports = __webpack_require__(30)(false);
 
 
 // module
-exports.push([module.i, ".DcXSjcjjaX9_NvqU207c- {\r\n    background-color: #F5F5F5;\r\n    color: #FCFCFC;\r\n    text-align: center;\r\n}", ""]);
+exports.push([module.i, ".DcXSjcjjaX9_NvqU207c- {\r\n    text-align: center;\r\n    color: #2C3A47;\r\n}\r\n\r\n", ""]);
 
 // exports
 exports.locals = {
