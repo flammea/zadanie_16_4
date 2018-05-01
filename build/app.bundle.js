@@ -5295,6 +5295,10 @@ var _App = __webpack_require__(28);
 
 var _App2 = _interopRequireDefault(_App);
 
+var _Title = __webpack_require__(33);
+
+var _Title2 = _interopRequireDefault(_Title);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
@@ -5343,7 +5347,7 @@ var App = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 { className: _App2.default.TodoApp },
-                'Tutaj pojawi\u0105 si\u0119 komponenty naszej aplikacji.'
+                _react2.default.createElement(_Title2.default, { title: 'TodoApp', numberoftasks: this.state.data.length })
             );
         }
     }]);
@@ -6185,6 +6189,88 @@ module.exports = function (css) {
 
 	// send back the fixed css
 	return fixedCss;
+};
+
+/***/ }),
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Title = __webpack_require__(34);
+
+var _Title2 = _interopRequireDefault(_Title);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Title = function Title(props) {
+	return _react2.default.createElement(
+		'div',
+		{ className: _Title2.default.Title },
+		_react2.default.createElement(
+			'h1',
+			null,
+			props.title
+		),
+		_react2.default.createElement(
+			'h2',
+			null,
+			'Your ToDo Tasks: ',
+			props.numberoftask
+		)
+	);
+};
+
+exports.default = Title;
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(35);
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(31)(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(30)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".DcXSjcjjaX9_NvqU207c- {\r\n    background-color: #F5F5F5;\r\n    color: #FCFCFC;\r\n    text-align: center;\r\n}", ""]);
+
+// exports
+exports.locals = {
+	"Title": "DcXSjcjjaX9_NvqU207c-"
 };
 
 /***/ })

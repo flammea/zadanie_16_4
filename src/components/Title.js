@@ -6,6 +6,7 @@ const Title = props => (
 		<h1>{props.title}</h1>
 		<h2>Your ToDo Tasks: {props.numberoftask}</h2>
 	</div>
+)
 
 
 export default Title;
